@@ -1,4 +1,4 @@
-# Listen — We Were Here archive
+# Listen - We Were Here archive
 
 A tiny, self-contained shuffle player for the **We Were Here** digital archive
 (*The African American Experience in Boyle County, Kentucky*).
@@ -10,9 +10,9 @@ page in the Omeka archive.
 
 ## Files
 
-- `index.html` — the whole app: vanilla JS + the YouTube IFrame API, no build
+- `index.html` - the whole app: vanilla JS + the YouTube IFrame API, no build
   step and no dependencies. The playlist is embedded directly in the file.
-- `manifest.json` — the playlist (`pn`, `videoId`, `title`, `itemUrl`), also
+- `manifest.json` - the playlist (`pn`, `videoId`, `title`, `itemUrl`), also
   embedded in `index.html`. Regenerate from `narration_ledger.csv` if the
   archive changes.
 
